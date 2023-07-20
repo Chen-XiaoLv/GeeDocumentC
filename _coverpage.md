@@ -8,13 +8,13 @@
 
 
 
-> <span style="color:#45b97c">持续更新中！</span>
+> <span style="color:#00a6ac">持续更新中！</span>
 
 - 高效，便捷的地理信息解决方案！
 
 - Python / JS / GeeMap
 
-- Designed by <span style="color:#45b97c">[かぐらなな](https://chen-xiaolv.github.io/)</span>
+- Designed by <span style="color:#00a6ac">[かぐらなな](https://chen-xiaolv.github.io/)</span>
 
   
 
