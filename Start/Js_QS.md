@@ -6,65 +6,67 @@
 
 打开Google Earth Engine，点击`Platform->Code Editor`选项卡，进入代码编辑器。
 
-<img src="./Js_QS/image-20230720153516397.png" alt="image-20230720153516397" style="zoom:50%;" />
+
+
+![image-20230720153516397](./Js_QS/image-20230720153516397.png)
 
 在左侧，我们可以看到`Docs`选项卡，该选项卡提供了所有方法的帮助文档。
 
-<img src="./Js_QS/image-20230720153716405.png" alt="image-20230720153716405" style="zoom:50%;" />
+![image-20230720153716405](./Js_QS/image-20230720153716405.png)
 
 `Scripts`是google托管的git仓库：
 
 通过`New`按钮，可以创建自己的文档。
 
-<img src="Js_QS/image-20230720153927577.png" alt="image-20230720153927577" style="zoom:50%;" />
+![image-20230720153927577](Js_QS/image-20230720153927577.png)
 
 `Assets`选项卡允许你上传自己的文件。
 
-<img src="Js_QS/image-20230720154251623.png" alt="image-20230720154251623" style="zoom:50%;" />
+![image-20230720154251623](Js_QS/image-20230720154251623.png)
 
 在中间窗体，`Get Link`功能可以获取脚本的统一资源定位符，方便代码的共享。
 
-<img src="Js_QS/image-20230720154411812.png" alt="image-20230720154411812" style="zoom:50%;" />
+![image-20230720154411812](Js_QS/image-20230720154411812.png)
 
 中间窗体上方的搜索栏允许检索数据集，对于找到的数据集可以直接导入：
 
-<img src="Js_QS/image-20230720154719909.png" alt="image-20230720154719909" style="zoom:25%;" />
+![image-20230720154719909](Js_QS/image-20230720154719909.png)
 
 点击导入后的代码图标，即可获得导入生成代码。
 
-<img src="Js_QS/image-20230720154804507.png" alt="image-20230720154804507" style="zoom:50%;" />
+![image-20230720154804507](Js_QS/image-20230720154804507.png)
 
 在这里可以直接删除。
 
-<img src="Js_QS/image-20230720154928182.png" alt="image-20230720154928182" style="zoom:50%;" />
+![image-20230720154928182](Js_QS/image-20230720154928182.png)
 
 加载地图后，可以打开图层管理器，调整可视化参数等：
 
-<img src="Js_QS/image-20230720155342635.png" alt="image-20230720155342635" style="zoom:50%;" />
+![image-20230720155342635](Js_QS/image-20230720155342635.png)
 
 `inspector`选项卡根据鼠标点击位置获取地图信息，可以通过十字丝互动的方式检查地图中的结果。
 
-<img src="Js_QS/image-20230720155452830.png" alt="image-20230720155452830" style="zoom:50%;" />
+![image-20230720155452830](Js_QS/image-20230720155452830.png)
 
 `console`选项卡跟浏览器里的`console`相同，用来处理JS输出和变量。
 
-<img src="Js_QS/image-20230720155641908.png" alt="image-20230720155641908" style="zoom:33%;" />
+![image-20230720155641908](Js_QS/image-20230720155641908.png)
 
 `Task`选项卡用来处理导入导出任务
 
-<img src="Js_QS/image-20230720155823941.png" alt="image-20230720155823941" style="zoom:33%;" />
+![image-20230720155823941](Js_QS/image-20230720155823941.png)
 
 `Profiler`选项卡会显示特定算法和计算所消耗的资源，如时间、CPU、内存等，可以通过按住`Ctrl+Alt+Enter`打开。
 
-<img src="Js_QS/image-20230720162625994.png" alt="image-20230720162625994" style="zoom:33%;" />
+![image-20230720162625994](Js_QS/image-20230720162625994.png)
 
 几何工具可以在地图上绘制几何图形。
 
-<img src="Js_QS/image-20230720162727529.png" alt="image-20230720162727529" style="zoom:33%;" />
+![image-20230720162727529](Js_QS/image-20230720162727529.png)
 
 可以选择添加新图层进行绘制。
 
-<img src="Js_QS/image-20230720162810420.png" alt="image-20230720162810420" style="zoom:50%;" />
+![image-20230720162810420](Js_QS/image-20230720162810420.png)
 
 ---
 
@@ -74,11 +76,11 @@
 
 `Image`:star: 数据由波段和属性字典构成：
 
-<img src="Js_QS/image-20230720163744160.png" alt="image-20230720163744160" style="zoom:50%;" />
+![image-20230720163744160](Js_QS/image-20230720163744160.png)
 
 `Feature`:star2: 则是由`Geometry`对象和属性字典构成。
 
-<img src="Js_QS/image-20230720164316536.png" alt="image-20230720164316536" style="zoom:50%;" />
+![image-20230720164316536](Js_QS/image-20230720164316536.png)
 
 其他的对象还有`Dictionary`,`List`,`Array`,`Date`,`Number`,`String`等。
 
@@ -88,11 +90,11 @@
 
 如果我们想导入数据集，那么可以在搜索栏上直接检索我们所需要的数据：
 
-<img src="Js_QS/image-20230720165518064.png" alt="image-20230720165518064" style="zoom:50%;" />
+![image-20230720165518064](Js_QS/image-20230720165518064.png)
 
 或者是在Earth Engine Data Catalog中检索:
 
-<img src="Js_QS/image-20230720165602580.png" alt="image-20230720165602580" style="zoom: 33%;" />
+![image-20230720165602580](Js_QS/image-20230720165602580.png)
 
 ---
 
@@ -114,7 +116,7 @@ Map.centerObject(image, 9);
 Map.addLayer(image, vizParams, 'Landsat 8 false color');
 ```
 
-<img src="Js_QS/image-20230720170203370.png" alt="image-20230720170203370" style="zoom:50%;" />
+![image-20230720170203370](Js_QS/image-20230720170203370.png)
 
 对于矢量要素的导入也是如此。
 
@@ -135,7 +137,7 @@ Map.addLayer(counties, {}, 'counties');
 
 + 创建地理定位点，定位可以通过`Inspector`选项卡来获取
 
-  <img src="Js_QS/image-20230720171041233.png" alt="image-20230720171041233" style="zoom:33%;" />
+  ![image-20230720171041233](Js_QS/image-20230720171041233.png)
 
   ```js
   var point=ee.Geometry.Point(-122.467,37.889);
@@ -165,7 +167,7 @@ Map.addLayer(counties, {}, 'counties');
 
   看看效果？
 
-  <img src="Js_QS/image-20230720171803768.png" alt="image-20230720171803768" style="zoom:33%;" />
+  ![image-20230720171803768](Js_QS/image-20230720171803768.png)
 
   **进阶用法**
 
