@@ -2,7 +2,7 @@
 
 > Code Editor是GEE JavaScript API的网络集成开发环境，也就是我们编写JS程序的地方
 
-<img src="Js_QS/image-20230720153301871.png" alt="image-20230720153301871" style="zoom: 50%;" />
+![](Js_QS/image-20230720153301871.png)
 
 打开Google Earth Engine，点击`Platform->Code Editor`选项卡，进入代码编辑器。
 
