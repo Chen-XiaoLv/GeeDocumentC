@@ -8,7 +8,7 @@
 
 #### **Python**
 
-```python
+```js
 print("Hello GEE!")
 ```
 

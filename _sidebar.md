@@ -1,7 +1,10 @@
-* [**:large_orange_diamond:首页**](/)
-* [**:earth_asia:快速开始**](Start/README)
+* [:large_orange_diamond:<span>  </span>**首页**](/)
+* [:earth_asia:<span>  </span>**快速开始**](Start/README)
   * [GEE 快速上手指南(JavaScript)](Start/Js_QS)
-  * [GEE 快速上手指南(Python)]()
-  * [JavaScript 快速入门](API_Tutorial/Introduction_to_Js_for_ee)
-  * 
+  * [Python API 安装教程](Start/Python_Install)
+* [:diamonds:<span>  </span>**API指南**](API_Tutorial/README)
+  * [基于JavaScript的EE操作介绍](API_Tutorial/Js_rd)
+    * [JavaScript基础知识](API_Tutorial/Introduction_to_Js_for_ee)
+    * [EE对象和方法](API_Tutorial/Earth_Engine_Objects)
+    * [函数式编程概念](API_Tutorial/Functional_programming_concepts)
 
