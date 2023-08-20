@@ -14,12 +14,10 @@ print("Hello GEE!")
 
 
 
-#### **JavaScript**
+### **JavaScript**
 
 ```js
 print("Hello GEE!");
 ```
-
-
 
 <!-- tabs:end -->

@@ -7,4 +7,8 @@
     * [JavaScript基础知识](API_Tutorial/Introduction_to_Js_for_ee)
     * [EE对象和方法](API_Tutorial/Earth_Engine_Objects)
     * [函数式编程概念](API_Tutorial/Functional_programming_concepts)
-
+* [:shark:<span>  </span>**资产管理**](AssetM/ManagingAsset)
+* [:diamond_shape_with_a_dot_inside: <span>  </span>**导出数据**](ExportingData/Overview)
+  * [导出图像](ExportingData/Exp_img)
+  * [导出要素](ExportingData/Exp_tv)
+  * [导出视频动画](ExportingData/Exp_va)
